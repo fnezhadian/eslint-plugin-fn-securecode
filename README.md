@@ -10,7 +10,9 @@ npm install eslint-plugin-fn-securecode --save-dev
 {
   plugins: ["fn-securecode"],
   rules: {
-    "fn-securecode/no-password": "warn"
+      "fn-securecode/no-password": "warn",
+      "fn-securecode/no-hardcoded-api-key": "warn",
+      "fn-securecode/no-inline-secret": "warn"
   }
 }
 
