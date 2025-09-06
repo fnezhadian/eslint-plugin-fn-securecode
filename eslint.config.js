@@ -7,7 +7,8 @@ export default [
     plugins: { "fn-securecode": plugin },
     rules: {
       "fn-securecode/no-password": "warn",
-      "fn-securecode/no-hardcoded-api-key": "warn"
+      "fn-securecode/no-hardcoded-api-key": "warn",
+      "fn-securecode/no-inline-secret": "warn"
     }
   }
 ];
